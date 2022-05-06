@@ -1,9 +1,9 @@
 import kotlin.math.roundToInt
 
 fun main() {
-    val amount = 10.0
+    val amount = 1000.0
     val transferMinimum = 35
-    if (amount < transferMinimum) {
+    if (amount < transferMinimum) {  //always false
         println("Минимумальная сумма перевода ${transferMinimum} рублей")
     } else {
         val commission = calculateCommission(amount)
